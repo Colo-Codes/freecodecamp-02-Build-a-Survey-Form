@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Karmatic Arcade';
+    src: url("../fonts/ka1.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+/* Initial reset */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+     outline: 1px dashed blue; /* Debugging purposes */
+}
+/* Flexbox container */
+#flexbox-container {
+    width: 1000px; /* TODO media query */
+    display: flex;
+    flex-direction: row;
+    margin: 5rem auto 50px auto;
+}
+#main-image {
+    order: -1;
+    background-image: url(../img/lorenzo-herrera-p0j-mE6mGo4-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* width: 500px; */
+    height: 800px;
+}
+/* Form */
+h1 {
+    font-family: "Karmatic Arcade", sans-serif;
+}

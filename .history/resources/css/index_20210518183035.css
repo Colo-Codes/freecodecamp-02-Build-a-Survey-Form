@@ -132,13 +132,11 @@ input[type=submit] {
     background-color: #832D7C; /* fallback */
     background-image: linear-gradient(90deg, #00B7FD, #C54F9C);
     border: none;
-    border-radius: 10px;
     color: white;
     padding: 16px;
     margin: 4px 2px;
-    font-size: 1rem;
     cursor: pointer;
-    box-shadow: 0 5px 10px rgba(181, 83, 196, .5);
+    box-shadow: 0 5px 10px rgba(181, 83, 196, .3);
   }
 /* Glow */
 #glow-1 {

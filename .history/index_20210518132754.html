@@ -6,8 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./resources/css/index.css" type="text/css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;800&display=swap" rel="stylesheet">
     <title>Retro Survey Form</title>
 </head>
 
@@ -17,11 +15,13 @@
             <h1 id="title">Retro Survey Form</h1>
             <p id="description">I'm baby paleo lorem cloud bread fashion axe succulents forage, banjo bicycle rights
                 everyday carry poutine commodo woke sed air plant. Tacos kogi adaptogen godard. Man bun brooklyn labore
-                aliquip duis.</p>
+                aliquip duis. Etsy pork belly subway tile succulents hot chicken normcore aliquip pariatur fashion axe
+                palo santo locavore pour-over. Four dollar toast farm-to-table lo-fi plaid waistcoat, brooklyn next
+                level live-edge selfies adipisicing vice.</p>
         </header>
         <section>
             <form action="#" id="survey-form" method="POST">
-                <fieldset id="personal-info">
+                <fieldset>
                     <legend>Personal information</legend>
                     <label for="name" id="name-label">
                         Name: <input type="text" id="name" placeholder="Kouji Kabuto" required>
@@ -33,8 +33,8 @@
                         How much you love the 80's (1 to 10)? <input type="number" id="number" placeholder="10" min="1"
                             max="10" required>
                     </label>
-                    <label for="dropdown"> Favourite anime:
-                        <select name="favourite" id="dropdown">
+                    <label for=""> Favourite anime:
+                        <select name="" id="dropdown">
                             <option value="mazinger-z">Mazinger Z</option>
                             <option value="macross-robotech">Macross (Robotech)</option>
                             <option value="crusher-joe">Crusher Joe</option>
@@ -46,7 +46,7 @@
                     </label>
                 </fieldset>
 
-                <fieldset id="cassette">
+                <fieldset>
                     <legend>If I say compact cassette, you say...</legend>
                     <label for="pencil">
                         <input type="radio" name="cassette-match" value="pencil" id="pencil"> Pencil
@@ -58,7 +58,7 @@
                         <input type="radio" name="cassette-match" value="not-born" id="not-born"> I wasn't born yet
                     </label>
                 </fieldset>
-                <fieldset id="alf">
+                <fieldset>
                     <legend>ALF stands for...</legend>
                     <label for="always">
                         <input type="radio" name="alf" value="always" id="always"> Always Look Forward
@@ -70,10 +70,10 @@
                         <input type="radio" name="alf" value="animals" id="animals"> Animals Living Fantastically-good
                     </label>
                 </fieldset>
-                <fieldset id="character">
+                <fieldset>
                     <legend>What character represents you the most?</legend>
                     <label for="koji">
-                        <input type="checkbox" name="character" value="koji" id="koji"> Kouji Kabuto
+                        <input type="checkbox" name="character" value="koji" id="koji"> Koji Kabuto
                     </label>
                     <label for="jem">
                         <input type="checkbox" name="character" value="jem" id="jem"> Jem
@@ -85,22 +85,20 @@
                         <input type="checkbox" name="character" value="larusso" id="larusso"> Daniel LaRusso
                     </label>
                 </fieldset>
-                <fieldset id="additional-comments">
+                <fieldset>
                     <legend>Additional comments</legend>
-                    <textarea name="additional-comments" id="textarea" cols="50" placeholder="I think the 80's is the best decade because..."></textarea>
+                    <label for="">
+                        <input type="textarea"> Text area
+                    </label>
                 </fieldset>
-                <div id="submit">
-                    <input type="submit" value="Submit form">
-                </div>
+                <input type="submit" value="Submit form">
             </form>
         </section>
         <div id="main-image" role="img" aria-label="Retro computers and devices from the 80's under a blue and violet light"></div>
     </main>
-    <div id="glow-1"></div>
-    <div id="glow-2"></div>
     <footer>
         <p>Photo by <a href="https://unsplash.com/@lorenzoherrera?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lorenzo Herrera</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
-        <p>By Damian Demasi - Since 1981</p>
+        <p>By Damian Demasi</p>
         
     </footer>
 </body>

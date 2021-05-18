@@ -24,7 +24,7 @@ html {
     margin: 5rem auto 50px auto;
     border-radius: 10px;
     /* border: 1px solid red; */
-    grid-template: 1fr 1fr / 1fr 1fr;
+    grid-template: 220px 1fr / 1fr 1fr;
     box-shadow: 0px -5px 70px 10px rgba(181, 83, 196, .3);
 
 }
@@ -55,7 +55,6 @@ section {
 /* Form */
 form {
     margin: 10px;
-    font-family: 'Nanum Gothic', sans-serif;
 }
 h1 {
     margin-top: 10px;
@@ -70,76 +69,15 @@ header p {
     font-family: 'Nanum Gothic', sans-serif;
 }
 fieldset {
-    padding: 10px;
-    border: 1px solid rgba(26, 6, 18, .3);
+    padding: 0 10px 10px 10px;
+    border: 1px solid #666;
     border-radius: 10px;
-    margin-bottom: 1rem;;
-}
+    box-shadow: 0 0 10px #666;
+    padding-top: 10px;
+  }
 legend {
     text-align: center;
 }
-#personal-info {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-}
-#personal-info label {
-    display: flex;
-    margin: .3rem 0;
-}
-#personal-info input, #personal-info select {
-    flex: 1 1 auto;
-    margin-left: 1em;
-    padding: 2px;
-    height: 1.3rem;
-    border: 1px solid rgba(26, 6, 18, .3);
-    border-radius: 5px;
-}
-#cassette {
-    display: flex;
-    flex-direction: row;
-    flex-direction: row;
-    justify-content: space-around;
-}
-#alf {
-    display: flex;
-    flex-direction: row;
-    flex-flow: column;
-    justify-content: space-around;
-}
-#character {
-    display: flex;
-    flex-direction: row;
-    flex-flow: column;
-    justify-content: space-around;
-}
-#additional-comments {
-    display: flex;
-}
-#additional-comments textarea {
-    flex: 1 1 auto;
-    padding: 2px;
-    max-width: 100%;
-    border: 1px solid rgba(26, 6, 18, .3);
-    border-radius: 5px;
-    resize:vertical; /* will prevent resizing horizontally */
-}
-#submit {
-    display: flex;
-}
-input[type=submit] {
-    flex: 1 1 auto;
-    background-color: #832D7C; /* fallback */
-    background-image: linear-gradient(90deg, #00B7FD, #C54F9C);
-    border: none;
-    border-radius: 10px;
-    color: white;
-    padding: 16px;
-    margin: 4px 2px;
-    font-size: 1rem;
-    cursor: pointer;
-    box-shadow: 0 5px 10px rgba(181, 83, 196, .5);
-  }
 /* Glow */
 #glow-1 {
     width: 850px; /* TODO media query */
