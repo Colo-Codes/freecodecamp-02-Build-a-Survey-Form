@@ -18,7 +18,6 @@
             <p id="description">Having lived the 80's as a kid allows me to have a first-hand perspective of what that decade was like. It had many great things, like anime and cutting edge technology, but also some not so great stuff, like hair styles and fashion. Are you into the '80s?</p>
         </header>
         <section>
-            <h2>Form</h2>
             <form action="#" id="survey-form" method="POST">
                 <fieldset id="personal-info">
                     <legend>Personal information</legend>
@@ -29,11 +28,11 @@
                         Email: <input type="email" id="email" placeholder="your@email.com" required> <!-- validate -->
                     </label>
                     <label for="number" id="number-label">
-                        How much you love the 80's? <span>"not at all" (1) to "completely in love" (10)</span> <input type="number" id="number" placeholder="10" min="1"
+                        How much you love the 80's (1 to 10)? <input type="number" id="number" placeholder="10" min="1"
                             max="10" required>
                     </label>
                     <label for="dropdown"> Favourite anime:
-                        <select name="favourite" id="dropdown" size="7" required>
+                        <select name="favourite" id="dropdown" required>
                             <option value="mazinger-z">Mazinger Z</option>
                             <option value="macross-robotech">Macross (Robotech)</option>
                             <option value="crusher-joe">Crusher Joe</option>

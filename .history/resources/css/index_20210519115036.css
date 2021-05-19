@@ -132,10 +132,6 @@ h1 {
     -webkit-text-fill-color: transparent;
 }
 
-h2 {
-    display: none;
-}
-
 header p {
     padding: 1em 10px 1em 10px;
     font-family: 'Nanum Gothic', sans-serif;
@@ -153,10 +149,7 @@ legend {
 }
 
 span {
-    order: 1;
-    font-size: .7em;
-    margin-left: 1em;
-    width: 33%;
+    flex-flow: column;
 }
 
 #personal-info {
