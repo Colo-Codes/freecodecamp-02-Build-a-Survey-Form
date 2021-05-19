@@ -59,6 +59,7 @@ html {
     }
     section {
         grid-area: 3 / 1 / 4 / 2; /* bottom */
+        border-radius: 0 0 10px 10px;
         border-bottom: 1px solid rgb(10, 1, 4);
         border-right: 1px solid rgb(10, 1, 4);
         border-left: 1px solid rgb(10, 1, 4);
