@@ -86,15 +86,13 @@ html {
         border-right: 1px solid rgb(26, 6, 18);
         height: 100%;
     }
-    header p {
-        line-height: 1.2em;
-        font-size: 1.1em;
-    }
     section {
         grid-area: 2 / 2 / 3 / 3; /* bottom right */
         border-bottom: 1px solid rgb(10, 1, 4);
         border-right: 1px solid rgb(10, 1, 4);
         border-radius: 0 0 10px 0;
+        line-height: 1.5em;
+
     }
 }
 
